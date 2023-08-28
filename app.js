@@ -40,11 +40,6 @@ const upload = multer({
 const app = express();
 
 // EJS
-app.set('view engine', 'ejs');
 
-// Public Folder
-app.use(express.static('./public'));
-
-app.get('/', (req, res) => res.render('index'));
 
 
