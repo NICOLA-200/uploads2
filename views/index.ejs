@@ -19,22 +19,7 @@ crossorigin="anonymous">
   <div class="container mt-3">
     <h1 class=" h1 fw-bolder  text-center text-capitalize text-primary">File Upload</h1>
     
-    <form action="/upload" method="POST" enctype="multipart/form-data" class="">
-      <div class="mt-1 p-3 ">
-        <div class="mb-3" style="width: 30%;">
-          <label for="formFile" class="form-label"> </label>
-          <input class="form-control form-control-sm"  name="myImage" type="file" id="formFile">
-        </div>
-        <button type="submit" class="ml-2 btn btn-primary "  >Submit</button>
-      </div>
-      
-      
-
-    </form>
-    <br>
-    <h1 class="text-center"><%= typeof msg != 'undefined' ? msg : '' %></h1>
-    <img src="<%= typeof file != 'undefined' ? file : '' %>" class="img-fluid">
-  </div>
+ 
  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
